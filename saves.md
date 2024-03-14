@@ -7,6 +7,6 @@ int main() {
 
 cd (nome da pasta)
 ls (quantidade de pastas)
-gcc (nome do arquivo) -o (novo nome do programa) lm
+gcc (nome do arquivo) -o (novo nome do programa) -lm
 ./(nome do arquivo)
 gcc questao04.c -o 

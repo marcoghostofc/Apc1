@@ -13,7 +13,7 @@ int main() {
   float valor_icms = preco_inicial * ICMS;
   float valor_cofins = preco_inicial * COFINS;
   float valor_pis_pasep = preco_inicial * PIS_PASEP;
-
+  float valor_2 = valor_icms * valor_cofins;
 
   float preco_final = (1 + ICMS + COFINS + PIS_PASEP) * preco_inicial;
 
@@ -22,6 +22,7 @@ int main() {
   printf("valor COFINS = R$%f\n", valor_cofins);
   printf("valor PIS/PASEP = R$%f\n", valor_pis_pasep);
   printf("O preço final do produto é R$%f\n", preco_final); 
+  printf("ajsojasjo %f\n", valor_2);
   
   return 0;
 }
