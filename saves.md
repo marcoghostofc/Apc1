@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
 
@@ -10,3 +11,5 @@ ls (quantidade de pastas)
 gcc (nome do arquivo) -o (novo nome do programa) -lm
 ./(nome do arquivo)
 gcc questao04.c -o 
+
+i.imgur.com/Fe0AgQs.png
